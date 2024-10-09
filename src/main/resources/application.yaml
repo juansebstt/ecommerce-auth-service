@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/yourdb
+    username: yourusername
+    password: yourpassword
+  jwt:
+    secret: your_jwt_secret
+    expiration: 3600  # token expiration time in seconds
